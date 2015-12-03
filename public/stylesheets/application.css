@@ -1,0 +1,41 @@
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body>nav {
+  background-color: #444;
+  letter-spacing: -0.25em;
+}
+
+nav a {
+  color: #fff;
+  display: inline-block;
+  height: 100%;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:first-child {
+  padding-left: 4em;
+}
+
+nav a:not(.brand):hover {
+  background-color: #555;
+}
+
+body>section {
+  background-color: #eee;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2em;
+  width: calc(100% - 12em);
+}
